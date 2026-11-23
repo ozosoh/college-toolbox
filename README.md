@@ -40,7 +40,7 @@ git clone https://github.com/ShuhaoZHNG/college-toolbox.git
 python ghost_typer.py
 ```
 
-也可以直接双击 `run.bat`。如果目标软件是以管理员身份运行的，A请双击 `run_as_admin.bat`，否则按键会被系统拦截。
+也可以直接双击 `run.bat`。如果目标软件是以管理员身份运行的，请双击 `run_as_admin.bat`，否则按键会被系统拦截。
 
 ### 方法二：自己打包成 exe（可选）
 
@@ -83,8 +83,8 @@ A: 不支持。核心逻辑依赖 Windows 的 `SendInput` 与 `WH_KEYBOARD_LL` �
 **Q: 中文和 emoji 能打吗？**
 A: 能。Unicode 直发模式不依赖输入法，按 Unicode 码位逐个上屏；兼容模式也能处理。
 
-**Q: 条目里的 zip 是什么？**
-A: 仓库里的 `逐字输入模拟.zip` 是早期旧版本，新功能以 `ghost_typer.py` 为准。
+**Q: 仓库里的 zip 是什么？**
+A: `逐字输入模拟.zip` 是早期旧版本，新功能以 `ghost_typer.py` 为准。
 
 ## 📜 免责声明
 
